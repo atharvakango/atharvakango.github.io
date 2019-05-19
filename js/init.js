@@ -645,6 +645,12 @@ function arlo_tm_switcher(){
 	var leftPart					= jQuery('.arlo_tm_leftpart_wrap');
 	var rightPart					= jQuery('.arlo_tm_rightpart');
 	
+	switcherOpener.addClass('opened');
+	//switcherIcon.addClass('opened');
+	leftPart.addClass('opened');
+	rightPart.addClass('opened');
+
+
 	switcherOpener.on('click',function(){
 		if(switcherOpener.hasClass('opened')){
 			switcherOpener.removeClass('opened');
