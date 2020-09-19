@@ -512,7 +512,7 @@ function arlo_tm_animate_text(){
 	var animateSpan			= jQuery('.arlo_tm_animation_text_word');
 	
 		animateSpan.typed({
-			strings: ["an Aspiring Freelancer", "a Django Developer", "an Android Developer"],
+			strings: ["Software Development Engineer", "a Part Time Freelancer", "a Django Developer"],
 			loop: true,
 			startDelay: 1e3,
 			backDelay: 2e3
